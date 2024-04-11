@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #fefefe;
+    position: relative;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1280px;
+    max-width: 97%;
+    margin: 0 auto;
+}
+
+header:hover {
+    background-color: white;
+    filter: invert(1);
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hero header {
+    padding: 30px 0 50px 0;
+}
+
+.hero header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero header .logo h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;
+}
+
+.hero header .logo h2 span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 15px;
+    margin-left: 5px;
+}
+
+.hero header nav ul {
+    list-style: none;
+}
+
+.hero header nav ul li {
+    display: inline-block;
+    margin-left: 40px; 
+}
+
+.hero header nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    transition-duration: .3s;
+    transition-property: box-shadow, color;
+}
+
+.hero header nav ul li a:hover {
+    color: #FFD173;
+}
+
+.hero header nav ul li.action a {
+    background: #FFD173;
+    color: #242424;
+    padding: 12px 28px;
+    border-radius: 40px;
+}
+
+.hero header nav ul li.action a:hover {
+    box-shadow: 0px 0px 5px #E3FF7C, 0px 0px 15px #7CFFF2;
+}
+
+.details {
+    margin-top: 180px;
+}
+
+.details .container {
+    width: 1166px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.details h1 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.details p {
+    width: 420px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 15px;
+    margin: 30px 0px 20px;
+}
+
+.details a.button {
+    background: #FFD173;
+    color: #242424;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    transition-duration: .3s;
+    transition-property: box-shadow;
+    text-decoration: none;
+}
+
+.details a.button:hover {
+    box-shadow: inset 135px 0px 5px #E3FF7C, inset 100px 0px 5px #242424;
+}
+
+.connect {
+    margin-top: 120px;
+}
+
+.connect .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.connect h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: #E3FF7C;
+    margin-right: 70px;
+    position: relative;
+}
+
+.connect h3:after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #E3FF7C;
+    position: absolute;
+    top: 50%;
+    right: -43%;
+}
+
+.connect .links a {
+    font-size: 17px;
+    margin: 0px 8px;
+    color: #E3FF7C;
+}
+
+.connect .links a:hover {
+    color: #FFD173;
+}
+
+@media screen and (max-width: 1300px) {
+    .hero {
+        background-size: 90%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .hero {
+        background-size: 110%;
+    }
+
+    .details h1 {
+        font-size: 36px;
+    }
+}
+header:hover {
+  background-color: white;
+  filter: invert(1);
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.hero header {
+  padding: 30px 0 50px 0;
+}
+
+.hero header .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero header .logo h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
+}
+
+.hero header .logo h2 span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+
+.hero header nav ul {
+  list-style: none;
+}
+
+.hero header nav ul li {
+  display: inline-block;
+  margin-left: 20px; 
+}
+
+.hero header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  transition-duration: .3s;
+  transition-property: box-shadow, color;
+}
+
+.hero header nav ul li a:hover {
+  color: #FFD173;
+}
+
+.hero header nav ul li.action a {
+  background: #FFD173;
+  color: #242424;
+  padding: 12px 28px;
+  border-radius: 40px;
+}
+
+.hero header nav ul li.action a:hover {
+  box-shadow: 0px 0px 5px #E3FF7C, 0px 0px 15px #7CFFF2;
+}
+
+.details {
+  margin-top: 180px;
+}
+
+.details .container {
+  width: 1166px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.details h1 {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.details p {
+  width: 420px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 15px;
+  margin: 30px 0px 20px;
+}
+
+.details a.button {
+  background: #FFD173;
+  color: #242424;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  transition-duration: .3s;
+  transition-property: box-shadow;
+  text-decoration: none;
+}
+
+.details a.button:hover {
+  box-shadow: inset 135px 0px 5px #E3FF7C, inset 100px 0px 5px #242424;
+}
+
+.connect {
+  margin-top: 120px;
+}
+
+.connect .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.connect h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  color: #E3FF7C;
+  margin-right: 70px;
+  position: relative;
+}
+
+.connect h3:after {
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #E3FF7C;
+  position: absolute;
+  top: 50%;
+  right: -43%;
+}
+
+.connect .links a {
+  font-size: 17px;
+  margin: 0px 8px;
+  color: #E3FF7C;
+}
+
+.connect .links a:hover {
+  color: #FFD173;
+}
+
+@media screen and (max-width: 1300px) {
+  .hero {
+      background-size: 90%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .hero {
+      background-size: 110%;
+  }
+
+  .details h1 {
+      font-size: 36px;
+  }
+}
